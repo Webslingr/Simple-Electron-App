@@ -1,0 +1,14 @@
+{
+  "name": "quick-start-v1",
+  "version": "1.0.0",
+  "description": "Electron Quick Start Code",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jason Sunnyassy",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.1.3"
+  }
+}

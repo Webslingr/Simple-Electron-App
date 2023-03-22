@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.ribbon {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 76, 255);  
+}
+
+.buttons {
+    /* margin: 20px 0 0 20px; */
+    padding-top: 7px;
+    margin-left: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(0, 76, 255); 
+    color: white;  */
+}
+
+button {
+    background-color: rgb(0, 76, 255); 
+    color: white;
+    padding: 10px; 
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(49, 111, 255);
+}
+
+
+h1 {
+    margin-left: 4%;
+}
+
+/* Text Editor */
+#txtEditor {
+    height: 360px;
+    width: 90%;
+    margin-left: 4%;
+}
+
+@media (prefers-color-scheme: dark) {
+    body { background: #333; color: white; }
+  }
+  
+@media (prefers-color-scheme: light) {
+    body { background: #ddd; color: black; }
+  }
